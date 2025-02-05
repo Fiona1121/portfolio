@@ -1,32 +1,32 @@
 {
-	"intro": {
-		"start": "const Andrew = ( name, passion ) =>",
-		"end": "Hello, my name is",
-		"speed": 60,
-		"deletionSpeed": 80,
-		"wrapper": "h2",
-		"startDelay": 1000,
-		"deleteDelay": 3000,
-		"restartDelay": 12000
-	},
+  "intro": {
+    "start": "const Fiona = ( code, design ) =>",
+    "end": "Hello, my name is",
+    "speed": 60,
+    "deletionSpeed": 80,
+    "wrapper": "h2",
+    "startDelay": 1000,
+    "deleteDelay": 3000,
+    "restartDelay": 12000
+  },
 
-	"header": {
-		"name": "Andrew Nelson.",
-		"usp": "I design and build meaningful experiences."
-	},
+  "header": {
+    "name": "Fiona Wu.",
+    "usp": "I turn imagination into seamless, engaging experiences."
+  },
 
-	"paragraph": "I am a digital polymath — a constantly evolving digital creator driven by a passion for lifelong learning and the desire to leave a lasting impact.",
+  "paragraph": "A problem solver at heart, I craft intuitive interfaces, optimize performance, and turn ideas into reality with code and design. Always pushing boundaries, always innovating.",
 
-	"buttons": {
-		"primary": {
-			"title": "Contact Me",
-			"url": "",
-			"leaveSite": false
-		},
-		"secondary": {
-			"title": "LinkedIn",
-			"url": "",
-			"leaveSite": "true"
-		}
-	}
+  "buttons": {
+    "primary": {
+      "title": "Contact Me",
+      "url": "mailto:itzsyboo@uw.edu",
+      "leaveSite": false
+    },
+    "secondary": {
+      "title": "LinkedIn",
+      "url": "https://www.linkedin.com/in/shihyuwu/",
+      "leaveSite": "true"
+    }
+  }
 }
