@@ -1,0 +1,71 @@
+{
+  "title": "Technical",
+  "subtitle": "As a creative technologist, I craft intuitive digital experiences using a diverse set of tools and languages.",
+  "sections": [
+    {
+      "title": "Bridging UI & Backend Magic",
+      "icon": "circle-nodes",
+      "description": "I bridge the gap between design and development, turning ideas into seamless digital experiences. Always learning, always optimizing—because great tech never stands still."
+    },
+    {
+      "title": "Software I Love to Work With",
+      "icon": "window",
+      "description": "I thrive in tools that empower creativity and efficiency. From coding environments to design platforms, I use industry-leading software to craft polished, high-performing products.",
+      "badges": [
+        { "key": "figma-plain", "name": "Figma", "type": "devicon" },
+
+        { "key": "photoshop-plain", "name": "Photoshop", "type": "devicon" },
+        {
+          "key": "aftereffects-plain",
+          "name": "After Effects",
+          "type": "devicon"
+        },
+        { "key": "blender-original", "name": "Blender", "type": "devicon" },
+        { "key": "xcode-plain", "name": "Xcode", "type": "devicon" },
+        {
+          "key": "androidstudio-plain",
+          "name": "Android Studio",
+          "type": "devicon"
+        },
+        { "key": "vscode-plain", "name": "VSCode", "type": "devicon" },
+        { "key": "postman-plain", "name": "Postman", "type": "devicon" }
+      ]
+    },
+    {
+      "title": "Technologies I Love to Build With",
+      "icon": "code",
+      "description": "From sleek frontends to rock-solid backends, I build for speed and impact. Optimizing React apps, crafting APIs, and fine-tuning databases—turning performance into an art.",
+      "badges": [
+        { "key": "javascript-plain", "name": "JavaScript", "type": "devicon" },
+        { "key": "typescript-plain", "name": "TypeScript", "type": "devicon" },
+        { "key": "react-plain", "name": "React.js", "type": "devicon" },
+        { "key": "nextjs-plain", "name": "Next.js", "type": "devicon" },
+        { "key": "flutter-plain", "name": "Flutter", "type": "devicon" },
+        {
+          "key": "react-plain",
+          "name": "React Native",
+          "type": "devicon"
+        },
+        { "key": "nodejs-plain", "name": "Node.js", "type": "devicon" },
+        { "key": "express-original", "name": "Express.js", "type": "devicon" },
+        { "key": "firebase-plain", "name": "Firebase", "type": "devicon" },
+        { "key": "graphql-plain", "name": "GraphQL", "type": "devicon" },
+        { "key": "postgresql-plain", "name": "PostgreSQL", "type": "devicon" },
+        { "key": "mongodb-plain", "name": "MongoDB", "type": "devicon" },
+        { "key": "mysql-plain", "name": "MySQL", "type": "devicon" },
+        { "key": "git-plain", "name": "Git", "type": "devicon" },
+        {
+          "key": "tailwindcss-plain",
+          "name": "Tailwind CSS",
+          "type": "devicon"
+        },
+        { "key": "sass-plain", "name": "SCSS", "type": "devicon" },
+        { "key": "d3js-plain", "name": "D3.js", "type": "devicon" },
+        { "key": "threejs-original", "name": "Three.js", "type": "devicon" },
+        { "key": "swatchbook", "name": "Canvas API", "type": "fad" },
+        { "key": "jest-plain", "name": "Jest", "type": "devicon" },
+        { "key": "docker-plain", "name": "Docker", "type": "devicon" }
+      ]
+    }
+  ]
+}

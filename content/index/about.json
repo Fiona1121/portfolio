@@ -1,0 +1,24 @@
+{
+  "title": "About Me",
+  "preTitle": "Synopsis",
+  "subTitle": "I blend frontend development, UI/UX design, and hardware prototyping to create seamless and engaging digital experiences. Passionate about building intuitive interfaces and data-driven solutions.",
+  "image": "/img/profile-photo.jpg",
+  "softSkills": {
+    "title": "Soft Skills That Elevate My Work",
+    "icon": "ear-listen",
+    "description": "Beyond my technical expertise, I excel in collaboration, adaptability, and problem-solving. Leading projects across web, mobile, and hardware, I ensure efficiency and innovation in every task. Outside of work, I enjoy playing volleyball, watching anime, and tinkering with creative projects."
+  },
+  "researchAndPlanning": {
+    "title": "Research and Innovation",
+    "icon": "shapes",
+    "description": "I love tackling complex problems and crafting user-centric solutions. From designing interactive experiences to optimizing app performance, I bring structured problem-solving and iterative design into my development process."
+  },
+  "focusAreas": [
+    { "key": "planet-moon", "name": "User Research", "type": "fad" },
+    { "key": "chart-line", "name": "Data & Strategy", "type": "fad" },
+    { "key": "object-group", "name": "UI/UX Design", "type": "fad" },
+    { "key": "solar-system", "name": "Performance", "type": "fad" },
+    { "key": "cubes", "name": "Prototyping", "type": "fad" },
+    { "key": "microchip", "name": "Embedded Systems", "type": "fad" }
+  ]
+}

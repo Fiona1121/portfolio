@@ -16,6 +16,9 @@ import CopyBlock from "../../blocks/about.copy.block";
 // Section scss
 import about from "../../../styles/sections/index/about.module.scss";
 
+// Section content
+import content from "../../../content/index/about.json";
+
 /**
  * Section: About
  * An overview of yourself.
@@ -28,31 +31,30 @@ export default function About() {
     <Section classProp={about.section}>
       <Container spacing={["verticalXXXLrg"]}>
         <SectionTitle
-          title="About Me"
-          preTitle="Synopsis"
-          subTitle="With a diverse skill set that includes UX design, UI design, full stack development, operational architecture, systems design, photography, and branding, I am a well-rounded digital professional."
+          title={content.title}
+          preTitle={content.preTitle}
+          subTitle={content.subTitle}
         />
         <section className={about.content}>
           <div className={about.image}>
-            <img src="/img/profile-photo.jpg" alt="Fiona profile photo" />
+            <img src={content.image} alt="Fiona profile photo" />
           </div>
           <div className={about.copy}>
             <CopyBlock
-              title="Softskills that pay the bills"
+              title={content.softSkills.title}
               containerClass={about.container}
               iconClass={about.icon}
-              icon={["fat", "ear-listen"]}
-              copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
+              icon={["fat", content.softSkills.icon]}
+              copy={content.softSkills.description}
             />
             <BadgesBlock
-              title="Reasearch and planning"
+              title={content.researchAndPlanning.title}
               containerClass={about.container}
-              list={methods}
+              list={content.focusAreas}
               fullContainer="fullContainer"
               block="methods"
-              icon="fingerprint"
-              copy="One of my favorite aspects of creating is planning the architecture of a project. From Design Systems to Brand Strategy—I enjoy working with the many touch points of user experience."
-              //invertedColor="invertedColor"
+              icon={content.researchAndPlanning.icon}
+              copy={content.researchAndPlanning.description}
               headerIcon={`${about.icon}`}
             />
           </div>
@@ -61,12 +63,3 @@ export default function About() {
     </Section>
   );
 }
-
-const methods = [
-  { key: "planet-moon", name: "User Research", type: "fad" },
-  { key: "qrcode", name: "Digital Strategy", type: "fad" },
-  { key: "window", name: "Design Systems", type: "fad" },
-  { key: "cubes", name: "Product Strategy", type: "far" },
-  { key: "layer-plus", name: "Brand Strategy", type: "fad" },
-  { key: "solar-system", name: "Operations", type: "fad" },
-];
